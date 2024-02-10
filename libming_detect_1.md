@@ -7,7 +7,7 @@ The vulnerability is a memory leak bug located at line 531 of the file /libming/
 libming download address:
 https://github.com/libming/libming.git
 
-1.At line 531 in the file /libming/src/actioncompiler/listaction.c, the printf function is used to output the string returned by the readString function, as shown in the following image:
+1.At line 531 of the printActionRecord function in the file /libming/src/actioncompiler/listaction.c, the printf function is used to output the string returned by the readString function, as shown in the following image:
 
 ![image](https://github.com/LuMingYinDetect/libming_defects/blob/main/libming_1.png)
 
